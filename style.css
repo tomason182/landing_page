@@ -54,21 +54,28 @@ body {
     flex: 1;
     flex-direction: column;
     justify-content: space-around;
-    align-items: start;   
+    align-items: flex-start;
+        
+}
+
+.description h1,
+.description p,
+.description .button {
+    margin-left: 200px;
 }
 
 .description h1 {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
-    align-self:last baseline;
+    
 
 }
 
 .description p {
     font-size: 18px;
     color: #e5e7eb;
-    align-self:last baseline;
+    
 }
 
 .placeholder-image {
@@ -85,7 +92,7 @@ body {
     background-color: grey;
     width: 450px;
     height: 175px;
-    align-self: center;
+    
 }
 
 .description .button {
@@ -97,7 +104,6 @@ body {
     text-decoration: none;
     border: none;
     border-radius: 5px;
-    align-self:last baseline
 }
 
 .description .button:hover {
