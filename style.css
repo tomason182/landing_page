@@ -25,37 +25,38 @@
 
 .links-nav a {
     color: #e5e7eb;
-    font-size: 18px;    
+    font-size: 18px;
+    text-decoration: none; 
 }
 
 .first-section {
-    height: 450px;
+    /* height: 450px;*/
     display:flex;
     background-color: #1f2937;
-    flex:1
+    
+    
 }
 
 .description {
     display: flex;
-    flex: 0.33;
+    flex: 1;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
-    position: relative;
-    margin-left: 350px;
-    
+    align-items: start;   
 }
 
 .description h1 {
     font-size: 48px;
     font-weight: bold;
     color: #f9faf8;
+    align-self:last baseline;
 
 }
 
 .description p {
     font-size: 18px;
     color: #e5e7eb;
+    align-self:last baseline;
 }
 
 .placeholder-image {
@@ -72,16 +73,19 @@
     background-color: grey;
     width: 450px;
     height: 175px;
+    align-self: center;
 }
 
 .description .button {
     display: inline-block;
     padding: 10px 20px;
+    margin-bottom: 20px;
     background-color: #007bff;
     color: #fff;
     text-decoration: none;
     border: none;
     border-radius: 5px;
+    align-self:last baseline
 }
 
 .description .button:hover {
