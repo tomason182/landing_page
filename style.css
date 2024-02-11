@@ -13,6 +13,7 @@
     justify-content: center;
     flex: 1;
     font-size: 24px;
+    color: #f9faf8
 }
 
 .links-nav {
@@ -27,3 +28,56 @@
     font-size: 18px;    
 }
 
+.first-section {
+    height: 250px;
+    display:flex;
+    background-color: #1f2937;
+}
+
+.description {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.description h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+
+}
+
+.description p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder-image {
+    width: auto;
+    height:auto;
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.placeholder-image img {
+    background-color: grey;
+    width: 450px;
+    height: 175px;
+}
+
+.description button {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0077b6;
+    position: center;
+}
