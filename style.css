@@ -29,15 +29,21 @@
 }
 
 .first-section {
-    height: 250px;
+    height: 450px;
     display:flex;
     background-color: #1f2937;
+    flex:1
 }
 
 .description {
     display: flex;
-    flex: 1;
+    flex: 0.33;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    margin-left: 350px;
+    
 }
 
 .description h1 {
@@ -68,16 +74,16 @@
     height: 175px;
 }
 
-.description button {
-    width: 100px;
-    height: 35px;
-    border-radius: 10px;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+.description .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
     color: #fff;
-    background-color: #0077b6;
-    position: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.description .button:hover {
+    background-color: #0056b3;
 }
