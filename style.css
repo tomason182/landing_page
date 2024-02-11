@@ -1,13 +1,32 @@
 .navigation {
     background-color: #1f2937;
-    color: #fff;    
-    display: flex;
-    justify-content: center;
+    color: #fff;
 }
 
-.nav-links {
+.navigation-container {
+    display: flex;    
+    flex: 1;    
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 2; 
+
+}
+
+.links-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1
+    
+    }
+
+.links-nav a {
     color: #e5e7eb;
     font-size: 18px;
-    display: flex;
-    justify-content: space-between;
+    
 }
+
