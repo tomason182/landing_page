@@ -10,23 +10,20 @@
 
 .logo-container {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex: 2; 
-
+    justify-content: center;
+    flex: 1;
+    font-size: 24px;
 }
 
 .links-nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex: 1
-    
+    flex: 0.75;    
     }
 
 .links-nav a {
     color: #e5e7eb;
-    font-size: 18px;
-    
+    font-size: 18px;    
 }
 
